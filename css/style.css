@@ -11,11 +11,26 @@ header .container{
 }
 
 header .intro-text .name{
-	font-size: 2em;
+	font-size: 3em;
 }
 
 header .intro-text .description{
-	font-size: 1.25em;
+	font-size: 1.5em;
+}
+
+@media(min-width: 768px) {
+	header .container {
+		padding-top: 200px;
+		padding-bottom: 100px;
+	}
+
+	header .intro-text .name{
+		font-size: 2em;
+	}
+
+	header .intro-text .description{
+		font-size: 1.25em;
+	}
 }
 
 hr{
@@ -23,12 +38,10 @@ hr{
 	max-width: 200px;
 }
 
-section.work {
+.work {
     color: #fff;
     background: #18bc9c;
-}
-
-section .work .container{
 	padding-top: 200px;
 	padding-bottom: 100px;
 }
+
